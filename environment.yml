@@ -1,0 +1,11 @@
+name: poliastro36_stable
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.6
+- poliastro=0.11.0
+- conda-forge::numpy
+- astroquery
+- ipywidgets
+- rise
